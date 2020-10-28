@@ -532,5 +532,5 @@ main()
         cin >> a;
         Patterns.push_back(a);
     }
-    myfile << StringReconstruction(Patterns,k);
+    cout << StringReconstruction(Patterns,k);
 }
